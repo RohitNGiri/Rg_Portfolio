@@ -1,0 +1,110 @@
+p {
+    margin-top: 0;
+    margin-bottom: -4.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(99, 98, 98);
+}
+
+.img1 {
+    width: 170px;
+    height: 60px;
+    margin-top: 10%;
+}
+
+.img2 {
+    width: -webkit-fill-available;
+    height: 200px;
+    margin-bottom: 2%;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* heart color */
+
+
+.fa-heart {
+    color: red;
+}
+
+/* social media CSS */
+
+
+.fa-envelope {
+    color: red;
+}
+
+.fa-envelope:hover {
+    color: #fd6e6e;
+    text-shadow: 0px 0px 30px rgba(255, 3, 3, 0.368);
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.fa-linkedin {
+    color: #2ba6cb;
+
+}
+
+.fa-linkedin:hover {
+    color: #2ba6cb;
+    text-shadow: 0px 0px 30px rgba(32, 212, 253, 0.487);
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.fa-square-instagram {
+    background: -moz-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+    background: -webkit-linear-gradient(top, #e72c83 0%, #a742c6 100%);
+    background: linear-gradient(to bottom, #e72c83 0%, #a742c6 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.fa-square-instagram:hover {
+    color: #a742c6;
+    text-shadow: 0px 0px 30px rgba(247, 0, 255, 0.406);
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.fa-square-github {
+    color: rgb(62, 61, 61);
+}
+
+.fa-square-github:hover {
+    color: rgba(34, 34, 34, 0.663);
+    ;
+    text-shadow: 0px 0px 30px rgba(37, 36, 37, 0.406);
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 720px) {
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+
+    .img1 {
+        margin-top: 2%;
+    }
+
+    .img2 {
+        height: 140px;
+    }
+}
