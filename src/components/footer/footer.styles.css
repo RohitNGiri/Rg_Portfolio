@@ -14,7 +14,8 @@ p {
 .img2 {
     width: -webkit-fill-available;
     height: 200px;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
+    border-bottom: black;
 }
 
 .responsive {
@@ -108,3 +109,13 @@ p {
         height: 140px;
     }
 }
+
+
+/* .box-bottom {
+    color: black;
+    border: 5px solid black;
+    margin: 0%;
+    padding: 0%;
+    border-radius: 20px 20px 0 0;
+
+} */

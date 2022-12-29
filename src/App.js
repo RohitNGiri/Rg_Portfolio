@@ -1,26 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
+import './App.css'
 import Footer from './components/footer/footer.components';
+import Navbar from './components/Navbar/Navbar.component';
 
 function App() {
   return (
 
-    <div>
-      <h1>Hello World!</h1>
-      <h1>Hello World!</h1>
-      <h1>Hello World!</h1>
-      <h1>Hello World!</h1>
-      <h1>Hello World!</h1>
-      <h1>Hello World!</h1>
-      <h1>Hello World!</h1>
-      <h1>Hello World!</h1>
-      <h1>Hello World!</h1>
-      <h1>Hello World!</h1>
-      <h1>Hello World!</h1>
-      <h1>Hello World!</h1>
-      <Footer></Footer>
+    <>
+      <div>
+        <Navbar></Navbar>
 
-    </div>
+        <Footer></Footer>
+
+      </div>
+
+    </>
   );
 }
 
