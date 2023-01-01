@@ -354,10 +354,19 @@ header.scrolled.logo {
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     transition: 0.3s;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     margin-top: 0rem;
 }
 
 .toggle-btn:hover {
     filter: brightness(97%);
+}
+
+.navbar {
+    margin: 0%;
+    padding: 0%;
+    margin-left: 5%;
+    margin-right: 4.4%;
+    height: 70px;
+
 }

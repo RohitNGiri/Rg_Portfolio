@@ -1,25 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from 'react';
+
 
 import './Navbar.style.css';
 
 const Navbar = () => {
-    const header = document.querySelector("header");
 
-    // sticky nav bar styling\
 
-    function stickyNavbar() {
-        // console.log("hello");
-        header.classList.toggle("scrolled", window.pageYOffset > 0);
-    }
+    function MyApp() {
+        console.log('sf');
+        const [offset, setOffset] = useState(0);
 
-    stickyNavbar();
+        useEffect(() => {
+            const onScroll = () => setOffset(window.pageYOffset);
+            // clean up code
+            window.removeEventListener('scroll', onScroll);
+            window.addEventListener('scroll', onScroll, { passive: true });
+            return () => window.removeEventListener('scroll', onScroll);
+        }, []);
 
-    window.addEventListener("scroll", stickyNavbar);
+        console.log(offset);
+    };
 
     return (
-        <div>
-            <header>
-                <nav className="container">
+        <div onScroll={MyApp} >
+            <header id="stickyHeader">
+                <div className="navbar">
                     <a href="#" className="logo">
                         Portf<span>olio.</span>
                     </a>
@@ -48,7 +53,7 @@ const Navbar = () => {
 
 
                     </div>
-                </nav>
+                </div>
             </header>
 
         </div>
