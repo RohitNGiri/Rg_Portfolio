@@ -14,11 +14,11 @@ const Home = () => {
                 <div class="container">
                     <div class="showcase-info">
 
-                        <h3 class="sub-heading">Product Designer</h3>
+                        <h3 class="sub-heading"> Web Developer</h3>
                         <h1 class="heading">Rohit Giri</h1>
                         <p class="text">I am a front-end Web Developer. Let's Work Together.</p>
                         <div class="cta">
-                            <a href="mailto:rohitgirirg7027@gmail.com" class="btn">Contact Me</a>
+                            <a href="mailto:rohitgirirg7027@gmail.com" class="btn rohit">Contact Me</a>
                             <a href="rgcv.pdf" download class="btn secondary-btn">Download CV</a>
                         </div>
                     </div>

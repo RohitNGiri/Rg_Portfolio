@@ -29,7 +29,9 @@
 
 .showcase-area .text {
     margin: 0.8rem 0;
+    font-size: 18px;
 }
+
 
 
 .showcase-image {
@@ -78,4 +80,8 @@
     left: 25%;
     bottom: 120px;
     transform: translate(-50%, -50%);
+}
+
+.rohit:hover {
+    color: white;
 }

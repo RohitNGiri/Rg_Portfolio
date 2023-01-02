@@ -10,7 +10,7 @@
     --main-color-dark-1: hsl(var(--hue-1), 69%, 50%);
     --main-color-2: hsl(var(--hue-2), 100%, 61%);
     --main-color-dark-2: hsl(var(--hue-2), 82%, 55%);
-    --section-padding: 7rem;
+    --section-padding: 0rem;
 }
 
 body {

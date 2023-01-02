@@ -25,7 +25,7 @@ const Footer = () => (
                     <a target="_blank" href="mailto:rohitgirirg7027@gmail.com" title="Email Me"><li ><i className="fa-solid fa-envelope p-2 fa-3x"></i></li> </a>
                     <a target="_blank" href="https://www.instagram.com/this.rohitgiri/" title="Check Out My Insta"><li><i className="fa-brands fa-square-instagram p-2 fa-3x"></i></li></a>
                     <a target="_blank" href="https://www.linkedin.com/in/rohit-giri-5508101b7/" title="Connect me on LinkIn"><li><i className="fa-brands fa-linkedin p-2 fa-3x"></i></li></a>
-                    <a target="_blank" href="https://github.com/RohitNGiri?tab=repositories" title="Live Projects on Github"><li><i className="fa-brands fa-square-github p-2 fa-3x"></i></li></a>
+                    <a target="_blank" href="https://github.com/RohitNGiri?tab=repositories" title="Let's Contribute on Github"><li><i className="fa-brands fa-square-github p-2 fa-3x"></i></li></a>
                 </ul>
             </div>
 

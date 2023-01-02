@@ -38,12 +38,11 @@ p {
 }
 
 .fa-envelope:hover {
-    color: #fd6e6e;
-    text-shadow: 0px 0px 30px rgba(255, 3, 3, 0.368);
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+    transform: scale(1.2);
 }
 
 .fa-linkedin {
@@ -53,11 +52,11 @@ p {
 
 .fa-linkedin:hover {
     color: #2ba6cb;
-    text-shadow: 0px 0px 30px rgba(32, 212, 253, 0.487);
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+    transform: scale(1.2);
 }
 
 .fa-square-instagram {
@@ -72,11 +71,11 @@ p {
 
 .fa-square-instagram:hover {
     color: #a742c6;
-    text-shadow: 0px 0px 30px rgba(247, 0, 255, 0.406);
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+    transform: scale(1.2);
 }
 
 .fa-square-github {
@@ -84,13 +83,11 @@ p {
 }
 
 .fa-square-github:hover {
-    color: rgba(34, 34, 34, 0.663);
-    ;
-    text-shadow: 0px 0px 30px rgba(37, 36, 37, 0.406);
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+    transform: scale(1.2);
 }
 
 /* For mobile phones: */
@@ -107,6 +104,7 @@ p {
 
     .img2 {
         height: 140px;
+
     }
 }
 
