@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1.05fr 1fr;
     align-items: center;
+    padding-bottom: 120px;
 
 }
 
@@ -10,7 +11,7 @@
 }
 
 .about .text {
-    margin: 3rem 0 4rem;
+    margin: 3rem 0 0rem;
 
 }
 
@@ -121,6 +122,15 @@
 
 }
 
-p {
-    color: black;
+b,
+strong {
+    font-weight: bolder;
+    color: rgb(82, 81, 81);
+    font-size: 16px;
+
+}
+
+img {
+    width: 80px;
+
 }

@@ -1,0 +1,122 @@
+.skills {
+    overflow: hidden;
+}
+
+.skills-box {
+    background-color: var(--bg-color-2);
+    padding: 3rem 6rem;
+    border-radius: 20px;
+    width: 100%;
+    position: relative;
+
+
+}
+
+.box-desc {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    column-gap: 2rem;
+
+}
+
+.skills-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    margin-top: 2rem;
+    justify-content: space-between;
+
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.sk-progress {
+    width: 150px;
+    height: 150px;
+    position: relative;
+
+
+}
+
+
+.sk-progress svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+
+
+}
+
+.sk-progress svg circle {
+    fill: var(--bg-color-3);
+    stroke-width: 5px;
+    stroke: var(--main-color-1);
+    stroke-linecap: round;
+    stroke-dasharray: 429;
+    stroke-dashoffset: 427;
+
+}
+
+@keyframes progress {
+    to {
+        stroke-dashoffset: var(--target);
+
+    }
+
+}
+
+.counter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: var(--heading-color);
+    font-weight: 400;
+    font-size: 0.9rem;
+
+}
+
+.counter span {
+    font-size: 2.45rem;
+
+}
+
+.sk-title {
+    color: var(--heading-color);
+    font-size: 1rem;
+}
+
+.skills .dots {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+
+
+}
+
+.skills .square {
+    position: absolute;
+    left: 100%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.sub-heading {
+    padding: 0px;
+    margin: 0px;
+}

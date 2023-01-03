@@ -8,6 +8,7 @@ import rg from '../../assets/person1.png'
 
 
 const Home = () => {
+
     return (
         <div>
             <section class="showcase-area">
@@ -16,7 +17,7 @@ const Home = () => {
 
                         <h3 class="sub-heading"> Web Developer</h3>
                         <h1 class="heading">Rohit Giri</h1>
-                        <p class="text">I am a front-end Web Developer. Let's Work Together.</p>
+                        <p class="text">I am a Full Stack Web Developer. Let's Work Together.</p>
                         <div class="cta">
                             <a href="mailto:rohitgirirg7027@gmail.com" class="btn rohit">Contact Me</a>
                             <a href="rgcv.pdf" download class="btn secondary-btn">Download CV</a>
