@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar.component';
 import Home from './components/homepage/Home.component';
 import AboutSection from './components/About/about.component';
 import Skills from './components/Skills/Skills.components';
+import ProjectContainer from './components/Projects/Projects.component';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Home></Home>
         <AboutSection></AboutSection>
         <Skills></Skills>
+        <ProjectContainer></ProjectContainer>
         <Footer></Footer>
 
       </div>

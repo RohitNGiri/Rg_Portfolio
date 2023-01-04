@@ -11,7 +11,8 @@
 }
 
 .about .text {
-    margin: 3rem 0 0rem;
+    margin: 2rem 0 0rem;
+
 
 }
 
@@ -133,4 +134,8 @@ strong {
 img {
     width: 80px;
 
+}
+
+.rohit:hover {
+    color: white;
 }

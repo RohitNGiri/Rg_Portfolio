@@ -11,7 +11,6 @@ const AboutSection = () => {
     return (
         <div>
             <section className="about section">
-                <img src="./assets/triangle.png" className="shape triangle" alt="" />
                 <div className="container">
                     <div className="about-grid">
                         <div className="about-card">
@@ -33,7 +32,8 @@ const AboutSection = () => {
 
                     </div>
                     <div className="about-info">
-                        <h3 className="sub-heading">About me</h3>
+                        <h3 className="sub-heading">&nbsp; About me</h3>
+                        <br />
                         <h1 className="heading">Hello, I am Rohit Giri</h1>
                         <p className="text">I graduated from the Amravati University in 2022 with a degree in <b>Bachelor of Computer
                             Application (BCA).</b><br />
@@ -49,7 +49,7 @@ const AboutSection = () => {
                             </b>
                         </p>
                         <div className="cta">
-                            <a href="mailto:rohitgirirg7027@gmail.com" className="btn">Contact Me</a>
+                            <a href="mailto:rohitgirirg7027@gmail.com" className="btn rohit">Contact Me</a>
                             <a href="rgcv.pdf" download className="btn secondary-btn">Download CV</a>
                         </div>
                     </div>

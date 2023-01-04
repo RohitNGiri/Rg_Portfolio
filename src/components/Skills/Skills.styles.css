@@ -45,6 +45,10 @@
 
 }
 
+.container {
+    padding-bottom: 120px;
+}
+
 
 .sk-progress svg {
     position: absolute;

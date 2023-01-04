@@ -103,6 +103,7 @@ ul {
     font-size: 0.85rem;
     letter-spacing: 0.5px;
     border-left: 3px solid var(--main-color-2);
+    margin-left: 55%;
     padding: 0.13rem 0.75rem;
     margin-bottom: 1rem;
     font-weight: 500;

@@ -15,7 +15,7 @@ const Home = () => {
                 <div class="container">
                     <div class="showcase-info">
 
-                        <h3 class="sub-heading"> Web Developer</h3>
+                        <h3 class="sub-heading">&nbsp; Web Developer</h3>
                         <h1 class="heading">Rohit Giri</h1>
                         <p class="text">I am a Full Stack Web Developer. Let's Work Together.</p>
                         <div class="cta">

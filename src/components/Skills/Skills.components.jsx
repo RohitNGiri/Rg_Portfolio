@@ -10,7 +10,7 @@ const Skills = () => {
                 <div className="container">
                     <div className="skills-box">
                         <div className="box-heading">
-                            <h3 className="sub-heading">My skills</h3>
+                            <h3 className="sub-heading">&nbsp; My skills</h3>
 
                             <div className="box-desc">
                                 <h1 className="heading"> Let me help you</h1>
