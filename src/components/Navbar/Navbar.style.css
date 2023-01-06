@@ -191,10 +191,13 @@ a:hover {
     background-color: var(--main-color-1);
     transition: 0.3s ease-in-out;
 
+
 }
 
 .btn.btn.secondary-btn:hover::before {
     width: 100%;
+
+
 }
 
 

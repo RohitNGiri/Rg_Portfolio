@@ -52,8 +52,23 @@
 
 .sub-container {
     padding-left: 5rem;
+    padding-bottom: 100px;
+    padding-top: 60px;
 
 }
+
+.demo-btns {
+    display: flex;
+    gap: 55px;
+
+}
+
+.btn:hover {
+    --bs-btn-color: #212529;
+}
+
+
+
 
 
 /* Responsive columns */

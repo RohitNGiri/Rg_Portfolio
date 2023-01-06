@@ -17,6 +17,11 @@ const ProjectContainer = () => {
                     <p className="project-data">
                         <h3>E - Commerce Site</h3>
                         Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adLorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        <br /> <br />
+                        <div className="demo-btns" >
+                            <button className="btn secondary-btn">Live Demo</button>&nbsp;&nbsp;
+                            <button className="btn secondary-btn"> Code</button>
+                        </div>
                     </p>
                 </div>
                 <div className="single-project">
@@ -25,6 +30,12 @@ const ProjectContainer = () => {
                     <p className="project-data">
                         <h3>E - Commerce Site</h3>
                         Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adLorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+
+                        <br /> <br />
+                        <div className="demo-btns" >
+                            <button className="btn secondary-btn">Live Demo</button>&nbsp;&nbsp;
+                            <button className="btn secondary-btn"> Code</button>
+                        </div>
                     </p>
                 </div> <div className="single-project">
 
@@ -32,6 +43,11 @@ const ProjectContainer = () => {
                     <p className="project-data">
                         <h3>E - Commerce Site</h3>
                         Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adLorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        <br /> <br />
+                        <div className="demo-btns" >
+                            <button className="btn secondary-btn">Live Demo</button>&nbsp;&nbsp;
+                            <button className="btn secondary-btn"> Code</button>
+                        </div>
                     </p>
                 </div>
 

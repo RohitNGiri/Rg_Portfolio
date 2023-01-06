@@ -7,17 +7,19 @@ import Home from './components/homepage/Home.component';
 import AboutSection from './components/About/about.component';
 import Skills from './components/Skills/Skills.components';
 import ProjectContainer from './components/Projects/Projects.component';
+import Contact from './components/Contact/Contact.component';
 
 function App() {
   return (
 
     <>
-      <div>
+      <div className='container'>
         <Navbar></Navbar>
         <Home></Home>
         <AboutSection></AboutSection>
         <Skills></Skills>
         <ProjectContainer></ProjectContainer>
+        <Contact></Contact>
         <Footer></Footer>
 
       </div>
