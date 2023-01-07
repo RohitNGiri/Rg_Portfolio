@@ -31,8 +31,31 @@ footer {
     margin: 0%;
 }
 
+.succmessage {
+    font-size: 18px;
+    transform: scale(1.1);
+    transition: 1.1s;
+    color: green;
+    height: 200px;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+.succmessage img {
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    display: inline-flex;
+
+
+}
+
 .error {
     display: none;
+    transition: 1.1s;
 }
 
 #errormessage {
