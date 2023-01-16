@@ -8,8 +8,11 @@ import mongodb from '../../assets/MERN/mongodb-icon-1.svg';
 
 const AboutSection = () => {
 
+  
+ 
+
     return (
-        <div>
+        <div >
             <section className="about section">
                 <div className="container">
                     <div className="about-grid">

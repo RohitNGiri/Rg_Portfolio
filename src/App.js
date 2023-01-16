@@ -10,10 +10,18 @@ import ProjectContainer from './components/Projects/Projects.component';
 import Contact from './components/Contact/Contact.component';
 
 function App() {
+
+
+
+
+ 
+
+
+
   return (
 
     <>
-      <div className='container'>
+      <div className='container' >
         <Navbar></Navbar>
         <Home></Home>
         <AboutSection></AboutSection>
@@ -21,7 +29,6 @@ function App() {
         <ProjectContainer></ProjectContainer>
         <Contact></Contact>
         <Footer></Footer>
-
       </div>
 
     </>

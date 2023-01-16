@@ -31,7 +31,7 @@ const Skills = () => {
                                         <span data-target="89">0</span>%
                                     </h2>
                                 </div>
-                                <div className="sk-title">ReactJS</div>
+                                <div className="sk-title">HTML</div>
                             </div>
 
                             <div className="skill">
@@ -44,7 +44,7 @@ const Skills = () => {
                                         <span data-target="68">0</span>%
                                     </h2>
                                 </div>
-                                <div className="sk-title">JavaScript</div>
+                                <div className="sk-title">CSS</div>
                             </div>
 
 
@@ -58,7 +58,7 @@ const Skills = () => {
                                         <span data-target="82">0</span>%
                                     </h2>
                                 </div>
-                                <div className="sk-title">MongoDb</div>
+                                <div className="sk-title">JavaScript</div>
                             </div>
 
 
@@ -73,7 +73,7 @@ const Skills = () => {
                                         <span data-target="80">0</span>%
                                     </h2>
                                 </div>
-                                <div className="sk-title">HTML/CSS</div>
+                                <div className="sk-title">ReactJS</div>
                             </div>
 
                         </div>

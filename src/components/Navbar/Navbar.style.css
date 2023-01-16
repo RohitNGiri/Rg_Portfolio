@@ -230,7 +230,6 @@ header {
     left: 0;
     width: 100%;
     z-index: 10;
-    height: 100px;
     line-height: 75px;
     transition: 0.3s;
 
@@ -283,6 +282,11 @@ header.scrolled.logo {
 
 }
 
+.stickyHeader {
+    background-color: white;
+    box-shadow: 1px 20px 20px 0px #5e5e5e61;
+
+}
 
 .links ul {
     display: flex;
