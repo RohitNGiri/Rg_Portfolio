@@ -13,8 +13,6 @@ const Contact = () => {
     const handleChange = (e) => {
         e.preventDefault();
         setError(true);
-
-
     }
 
     return (

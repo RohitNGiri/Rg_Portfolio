@@ -21,7 +21,7 @@ body {
     --bg-color-transparent: rgba(255, 255, 255, 0.6);
     --heading-color: hsl(var(--hue-1), 61%, 24%);
     --text-color: hsl(var(--hue-1), 17%, 63%);
-    background-color: rgb(236, 243, 255);
+
 
 }
 

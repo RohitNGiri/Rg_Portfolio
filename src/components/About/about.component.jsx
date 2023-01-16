@@ -15,19 +15,19 @@ const AboutSection = () => {
                     <div className="about-grid">
                         <div className="about-card">
                             <img src={mongodb} />
-                            <h3>MongoDb</h3>
+                            <h3>HTML</h3>
                         </div>
                         <div className="about-card">
                             <img src={expressjs} />
-                            <h3>ExpressJS</h3>
+                            <h3>CSS</h3>
                         </div>
                         <div className="about-card">
                             <img src={nodejs} />
-                            <h3>NodeJS</h3>
+                            <h3>ReactJS</h3>
                         </div>
                         <div className="about-card">
                             <img src={reactjs} />
-                            <h3>ReactJS</h3>
+                            <h3>JavaScript</h3>
                         </div>
 
                     </div>
@@ -37,17 +37,17 @@ const AboutSection = () => {
                         <h1 className="heading">Hello, I am Rohit Giri</h1>
                         <p className="text">I graduated from the Amravati University in 2022 with a degree in <b>Bachelor of Computer
                             Application (BCA).</b><br />
-                            Through out that, I have some experience skills in <b>Html, CSS, Bootstrap, JavaScript, Jquery, ReactJS, NodeJS and Database like MongoDb, Firebase. </b> I am not only
+                            Through out that, I have some experience skills in <b>Html, CSS, Bootstrap, JavaScript, ReactJS, NodeJS, TypeScript and Database like Firebase, MySQL. </b> I am not only
                             good at
-                            web
+                            Frontend
                             dvelopment, But
-                            also i have good graps on technologies like <b> C language, C++, Core Java and Python.</b> <br />
-                            I have completed some projects using<b> MERN stack </b>  and learn How to work on live projects and host them using <b>Github & Netlify. </b>
-                            Also I am exploring deep into upcomming Web Technologies like <b>
-                                NextJS, VueJS, and so on.
+                            also i have deep understanding of 
+                           
+                         <b> Webpack, performance optimization, and Progressive Web Apps.</b> <br />
+                            I have completed some projects like<b> E-commerce website, Job Tracking & Video Streaming App </b>, Where I learn How to work on live projects and host them using <b>Github & Netlify. </b>
+                            I am constantly seeking to <b>learn and stay up-to-date</b> with the latest trends and technologies in the industry.
 
-                            </b>
-                        </p>
+                            </p>
                         <div className="cta">
                             <a href="mailto:rohitgirirg7027@gmail.com" className="btn rohit">Contact Me</a>
                             <a href="rgcv.pdf" download className="btn secondary-btn">Download CV</a>
