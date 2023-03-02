@@ -9,50 +9,56 @@ const ProjectContainer = () => {
 
     return (
         <div className="sub-container">
-            <h3 className="sub-heading prohead">&nbsp; Projects</h3>
+        <br/>
+        <br/>
+        <br/>
+            <h3 className="sub-heading align-heading-project">&nbsp; Projects</h3>
+            <br/>
             <section className="project-section">
-                <div className="single-project">
+                 <div className="single-project">
 
                     <img src={port1} className='image1' />
                     <p className="project-data">
-                        <h3>E - Commerce Site</h3>
-                        Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adLorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        <br /> <br />
+                        <h4>E - Commerce Site</h4>
+                   
                         <div className="demo-btns" >
-                            <button className="btn secondary-btn">Live Demo</button>&nbsp;&nbsp;
-                            <button className="btn secondary-btn"> Code</button>
+                       
+                            <button className="simple-btn">Live Demo</button>
+                            <button className="simple-btn">Source Code</button>
                         </div>
                     </p>
                 </div>
-                <div className="single-project">
+                 <div className="single-project">
 
                     <img src={port1} className='image1' />
                     <p className="project-data">
-                        <h3>E - Commerce Site</h3>
-                        Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adLorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-
-                        <br /> <br />
+                        <h4>E - Commerce Site</h4>
+                   
                         <div className="demo-btns" >
-                            <button className="btn secondary-btn">Live Demo</button>&nbsp;&nbsp;
-                            <button className="btn secondary-btn"> Code</button>
+                       
+                            <button className="simple-btn">Live Demo</button>
+                            <button className="simple-btn">Source Code</button>
                         </div>
                     </p>
-                </div> <div className="single-project">
+                </div>
+                 <div className="single-project">
 
                     <img src={port1} className='image1' />
                     <p className="project-data">
-                        <h3>E - Commerce Site</h3>
-                        Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adLorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                        <br /> <br />
+                        <h4>E - Commerce Site</h4>
+                   
                         <div className="demo-btns" >
-                            <button className="btn secondary-btn">Live Demo</button>&nbsp;&nbsp;
-                            <button className="btn secondary-btn"> Code</button>
+                       
+                            <button className="simple-btn">Live Demo</button>
+                            <button className="simple-btn">Source Code</button>
                         </div>
                     </p>
                 </div>
 
 
             </section>
+
+          
 
         </div>
     )

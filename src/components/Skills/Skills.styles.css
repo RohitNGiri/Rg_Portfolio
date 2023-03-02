@@ -124,3 +124,8 @@
     padding: 0px;
     margin: 0px;
 }
+
+.align-heading {
+    position: absolute;
+    left: 3%;
+}

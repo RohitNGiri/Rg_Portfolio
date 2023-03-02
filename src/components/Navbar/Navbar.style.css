@@ -107,6 +107,7 @@ ul {
     padding: 0.13rem 0.75rem;
     margin-bottom: 1rem;
     font-weight: 500;
+
 }
 
 .heading {
@@ -307,7 +308,7 @@ header.scrolled.logo {
     opacity: 0.9;
     transition: 0.3s;
     margin-top: -36px;
-    top: -15px;
+    top: -12px;
     color: rgb(99, 98, 98);
 
 }

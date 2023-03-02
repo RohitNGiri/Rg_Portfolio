@@ -13,58 +13,102 @@
 .single-project {
 
     border: 2px solid black;
-    /* padding: 10px 20px; */
     background-color: #fff;
-    padding-bottom: 100px;
-    transition: 1s;
+    background: rgba(255, 255, 255, 0.4);
+
+
+
+
 
 
 }
 
-.single-project:hover {
+/* .single-project:hover {
     transform: scale(1.1);
     background-color: #fff;
     transition: 1s;
 
-}
+} */
 
 .image1 {
 
     width: 100%;
     height: auto;
     transition: 1s;
-
-}
-
-
-.project-data {
-    display: absolute;
-    transition: 1s;
-    padding: 15px;
-}
-
-/* 
-.project-data:hover {
     position: relative;
+    overflow: hidden;
+
+}
+
+
+.single-project .project-data {
     display: absolute;
-} */
+    position: absolute;
+    color: rgb(255, 255, 255);
+    transform: translateY(100%);
+    transition: all 0.3s linear;
+    background: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    width: 24.5%;
+
+
+
+
+
+}
+
+
+.single-project:hover .project-data {
+    display: absolute;
+    transform: translateY(9%);
+    top: 65%;
+    transition: 1s;
+    padding: 6px;
+
+
+
+
+
+}
 
 
 .sub-container {
-    padding-left: 5rem;
-    padding-bottom: 100px;
+    padding-left: 2.5rem;
+    /* padding-bottom: 100px; */
     padding-top: 60px;
+    background-color: #e7f3f9;
+    overflow: hidden;
 
 }
 
 .demo-btns {
     display: flex;
     gap: 55px;
+    color: rgb(255, 255, 255);
+    border: none;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+
+}
+
+.demo-btns .simple-btn {
+
+    color: rgb(255, 242, 0);
+    background-color: transparent;
+    border: none;
+
 
 }
 
 .btn:hover {
     --bs-btn-color: #212529;
+}
+
+.align-heading-project {
+    position: absolute;
+    left: 5%;
 }
 
 

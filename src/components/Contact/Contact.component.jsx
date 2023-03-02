@@ -17,7 +17,13 @@ const Contact = () => {
 
     return (
         <div className="container">
-            <h3 className="sub-heading">&nbsp; Contact</h3>
+          
+        <br/>
+        <br/>
+        <br/>
+              <br/>
+      
+            <h3 className="sub-heading prohead">&nbsp; Contact</h3>
             <section class="paralax-mf footer-paralax bg-image sect-mt4 route" >
                 <div class="overlay-mf"></div>
                 <div class="container">
@@ -40,7 +46,7 @@ const Contact = () => {
                                                 </p><br />
                                                 <br /><br /><br /><br />
                                                 <ul class="list-ico">
-                                                    <li><FaLocationArrow /> &nbsp;<span class="ion-ios-location"></span> Yavatmal, Maharashtra, India</li><br />
+                                                    <li><FaLocationArrow /> &nbsp;<span class="ion-ios-location"></span> Pune, Maharashtra, India</li><br />
                                                     <li><BsFillTelephoneFill /> &nbsp;<span class="ion-ios-telephone"></span> +91 7378719124</li><br />
                                                     <li><AiOutlineMail /> &nbsp;<span class="ion-email"></span>rohitgirirg7027@gmail.com</li><br />
                                                 </ul>
